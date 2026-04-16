@@ -1,0 +1,40 @@
+:root {
+    color-primario: #2c3e50;
+    color-secundario: #3498db;
+    color-fondo:#f4f4f4;
+    color-texto:#333;
+    fuente-titulos: 'Montserrat', sans-serif;
+    fuente-cuerpo: 'Roboto', sans-serif;
+    borde-redondeado: 15px;
+    sombra-caja: 0px 10px 20px -5px rgba(0,0,0,0.3);
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5; 
+    margin: 0;
+    padding: 20px;
+    
+}
+ header, main, section, nav {
+    background-color: var(color-fondo);
+    margim-bottom: 20px;
+    padding: 20px;
+    border-radius: var(borde-redondeado);
+    box-shadow: var(sombra-caja);
+}
+h1, h2, h3{
+    font-family: var(fuente-titulos);
+    color: var(color-primario);
+    text-transform: uppercase;
+}
+nav {
+
+    display: flex;
+    margin-bottom: 10px;
+}
+img {
+    border-radius: 15px
+    box-shadow: 5px 10px 20px -5px rgba(0,0,0,0.3);
+    display: block;
+    margin: 10px auto;
+}
